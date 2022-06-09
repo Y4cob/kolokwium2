@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace kolokwium2.Controllers
 {
-    [Authorize]
-    [ApiController]
+   
     [Route("[controller]")]
     public class AlbumController : Controller
     {

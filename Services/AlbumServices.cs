@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using kolokwium2.Services;
 
 namespace kolokwium2.Services
 {
@@ -10,7 +11,7 @@ namespace kolokwium2.Services
         private readonly Context context;
 
         
-    }
+    
     public AlbumServices(Context context){
         this.context = context;
     }
@@ -53,4 +54,5 @@ public async Task<Album> GetAlbumAsync(int id){
              return Album;
          }
      }
+}
 }
